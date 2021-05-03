@@ -47,6 +47,14 @@ namespace PrintAPI.Middleware
                 // 1) Send IP address to the agent
                 string ipAddress = "10.10.13.10";
 
+                // ==========================================================================
+                // ==========================================================================
+
+                // >>> HERE I WOULD LIKE TO RECEIVE A HttpPOST request, like the one I get in my controllers <<<
+
+                // ==========================================================================
+                // ==========================================================================
+
 
                 // Send printJobString to the client.
                 await SendToAgent(webSocket, ipAddress);
